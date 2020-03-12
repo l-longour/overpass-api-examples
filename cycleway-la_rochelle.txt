@@ -1,0 +1,10 @@
+[out:json][timeout:25];
+    area[name="Communauté d'agglomération de La Rochelle"]->.SA;
+        (
+        relation[route=bicycle](area.SA);
+        way[highway=cycleway](area.SA);
+        way[highway=path][bicycle=designated](area.SA);
+        );
+        out meta;
+>;
+out meta qt;
