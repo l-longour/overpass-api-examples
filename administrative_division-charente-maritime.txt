@@ -1,0 +1,8 @@
+[out:json][timeout:25];
+relation
+  [name="Charente-Maritime"]
+  [boundary=administrative]
+  [admin_level=6];
+  out;
+>;
+out skel qt;
